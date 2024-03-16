@@ -1,0 +1,182 @@
+@import url("https://fonts.googleapis.com/css2?family=Geologica:wght@100;300;400;500;600;700;800;900&family=Poppins:wght@200;300;400;500;600;700&display=swap");
+
+:root {
+  --ff-display: "Poppins", "Geologica", Helvetica, Arial, sans-serif;
+  --ff-body: "Poppins", "Geologica", Helvetica, Arial, sans-serif;
+
+  --fs-1: clamp(1.802rem, 0.802rem + 4vw, 3.052rem);
+  --fs-2: clamp(1.602rem, 0.9308rem + 2.6848vw, 2.441rem);
+  --fs-3: clamp(1.424rem, 1.0008rem + 1.6928vw, 1.953rem);
+  --fs-4: clamp(1.266rem, 1.0284rem + 0.9504vw, 1.563rem);
+  --fs-5: clamp(1.125rem, 1.025rem + 0.4vw, 1.25rem);
+  --fs-6: clamp(1rem, 1rem + 0vw, 1rem);
+  --fs-regular: clamp(0.875rem, 0.8158rem + 0.2105vw, 1rem);
+  --fs-small: clamp(0.8125rem, 0.7875rem + 0.1vw, 0.875rem);
+  --fs-xsmall: clamp(0.6875rem, 0.6375rem + 0.2vw, 0.8125rem);
+
+  --clr-primary-400: #5f7ff5;
+  --clr-secondary-400: #d9ee5f;
+  --clr-accent-400: #ee9648;
+
+  --clr-neutral-100: #eeeeee;
+  --clr-neutral-200: #f8fafa;
+  --clr-neutral-300: #c5c6c8;
+  --clr-neutral-400: #818283;
+  --clr-neutral-500: #4f5052;
+  --clr-neutral-600: #282728;
+  --clr-neutral-700: #0d0e10;
+  --clr-neutral-800: #141414;
+
+  --clr-heading: var(--clr-neutral-100);
+  --clr-text: var(--clr-neutral-300);
+  --clr-bg: var(--clr-neutral-800);
+}
+
+*,
+*::before,
+*::after {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+* {
+  margin: 0;
+  padding: 0;
+  font-family: var(--ff-display);
+}
+html:focus-within {
+  scroll-behavior: smooth;
+}
+body {
+  text-rendering: optimizeSpeed;
+  background-color: var(--clr-bg);
+  color: var(--clr-text);
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow-x: hidden;
+  padding: 2rem;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: bold;
+  color: var(--clr-heading);
+}
+
+.title {
+  text-transform: uppercase;
+  font-weight: bold;
+  padding-bottom: 1rem;
+}
+
+@media only screen and (max-width: 576px) {
+  form {
+    flex-wrap: wrap;
+  }
+  .btn {
+    width: 100%;
+  }
+}
+.disabled {
+  font-size: var(--fs-small);
+  color: var(--clr-neutral-400);
+}
+/* ~~~~ ARCHIVE ~~~~ */
+form {
+  display: flex;
+  gap: 5px;
+  padding-block: 1rem;
+  align-items: center;
+  justify-content: center;
+}
+.btn {
+  cursor: pointer;
+  padding: 8px 15px;
+  border: none;
+  outline: transparent;
+  border-radius: 8px;
+  background-color: var(--clr-secondary-400);
+  font-weight: bold;
+  min-width: 90px;
+}
+.btn:hover {
+  opacity: 0.9;
+}
+.btn:active {
+  opacity: 0.8;
+}
+input {
+  padding: 8px 20px;
+  border: none;
+  outline: transparent;
+  border-radius: 8px;
+  width: 100%;
+}
+.App {
+  text-align: center;
+  padding: 2rem 2rem 1rem;
+  border-radius: 1rem;
+  background-color: var(--clr-neutral-600);
+  max-width: 550px;
+  min-width: 280px;
+}
+
+.clear-btn {
+  cursor: pointer;
+  background-color: transparent;
+  color: #ff9e9e;
+  border: none;
+  outline: transparent;
+  width: 100%;
+}
+.clear-btn:hover {
+  color: #ff8383;
+}
+.list-wrapper {
+  display: grid;
+  gap: 0.5rem;
+  padding-bottom: 1rem;
+}
+.list-ctr {
+  position: relative;
+  background-color: var(--clr-neutral-500);
+  height: 38px;
+  padding-left: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 8px;
+}
+.list-ctr div {
+  display: flex;
+  height: 100%;
+  padding: 0.5rem;
+  border-radius: 7px;
+  align-items: center;
+  background-color: var(--clr-neutral-600);
+  border: 1px solid var(--clr-neutral-500);
+}
+.list-ctr button {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  background-color: transparent;
+  border: none;
+  outline: transparent;
+  color: var(--clr-neutral-300);
+}
+.list-ctr button:nth-child(1) {
+  border-right: 1px solid var(--clr-neutral-400);
+  padding-right: 5px;
+}
+.list-ctr button:nth-child(2) {
+  padding-left: 5px;
+}
+.list-ctr svg:hover {
+  color: var(--clr-accent-400);
+}

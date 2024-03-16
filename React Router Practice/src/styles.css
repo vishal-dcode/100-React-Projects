@@ -1,0 +1,55 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #141414;
+  overflow-x: hidden;
+  font-family: "Poppins", sans-serif;
+  color: #eee;
+}
+.container {
+  padding-inline: 1.2rem;
+}
+
+/* ====> Navbar <==== */
+nav .active {
+  color: rgb(255, 65, 40);
+}
+.navbar-wrapper {
+  background-color: #101010;
+  border-bottom: 1px dashed gray;
+}
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+}
+.navbar * {
+  text-decoration: none;
+  color: #eee;
+}
+.nav-logo {
+  font-weight: bold;
+}
+nav {
+  display: flex;
+  gap: 1rem;
+  padding-block: 1.5rem;
+}
+/* Routes Wrapper */
+.body-wrapper {
+  margin-top: 1rem;
+}
+/* 404 Component */
+.error-title {
+  height: 85vh;
+  display: grid;
+  place-content: center;
+  font-size: 5rem;
+  font-weight: semibold;
+}

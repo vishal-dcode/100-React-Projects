@@ -1,0 +1,146 @@
+@import url("https://fonts.googleapis.com/css2?family=Geologica:wght@100;300;400;500;600;700;800;900&family=Poppins:wght@200;300;400;500;600;700&display=swap");
+
+:root {
+  --ff-display: "Poppins", "Geologica", Helvetica, Arial, sans-serif;
+  --ff-body: "Poppins", "Geologica", Helvetica, Arial, sans-serif;
+
+  --fs-1: clamp(1.802rem, 0.802rem + 4vw, 3.052rem);
+  --fs-2: clamp(1.602rem, 0.9308rem + 2.6848vw, 2.441rem);
+  --fs-3: clamp(1.424rem, 1.0008rem + 1.6928vw, 1.953rem);
+  --fs-4: clamp(1.266rem, 1.0284rem + 0.9504vw, 1.563rem);
+  --fs-5: clamp(1.125rem, 1.025rem + 0.4vw, 1.25rem);
+  --fs-6: clamp(1rem, 1rem + 0vw, 1rem);
+  --fs-regular: clamp(0.875rem, 0.8158rem + 0.2105vw, 1rem);
+  --fs-small: clamp(0.8125rem, 0.7875rem + 0.1vw, 0.875rem);
+  --fs-xsmall: clamp(0.6875rem, 0.6375rem + 0.2vw, 0.8125rem);
+
+  --clr-primary-400: #5f7ff5;
+  --clr-secondary-400: #d9ee5f;
+  --clr-accent-400: #ee9648;
+
+  --clr-neutral-100: #eeeeee;
+  --clr-neutral-200: #f8fafa;
+  --clr-neutral-300: #c5c6c8;
+  --clr-neutral-400: #818283;
+  --clr-neutral-500: #4f5052;
+  --clr-neutral-600: #282728;
+  --clr-neutral-700: #0d0e10;
+  --clr-neutral-800: #141414;
+
+  --clr-heading: var(--clr-neutral-100);
+  --clr-text: var(--clr-neutral-300);
+  --clr-bg: var(--clr-neutral-800);
+}
+
+*,
+*::before,
+*::after {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+* {
+  margin: 0;
+  padding: 0;
+  font-family: var(--ff-display);
+}
+html:focus-within {
+  scroll-behavior: smooth;
+}
+body {
+  text-rendering: optimizeSpeed;
+  background-color: var(--clr-bg);
+  color: var(--clr-text);
+
+  overflow-x: hidden;
+  padding: 2rem;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: bold;
+  color: var(--clr-heading);
+}
+
+/* ~~~~~~~~~~~~~~~~~~ Style CSS ~~~~~~~~~~~~~~~~~~ */
+.container {
+  background-color: var(--clr-neutral-600);
+  padding: 1rem;
+  border-radius: 1rem;
+  border: 1px solid var(--clr-neutral-500);
+}
+.btn {
+  cursor: pointer;
+  width: min-content;
+  padding: 10px 20px;
+  border-radius: 0.8rem;
+  border: none;
+  outline: transparent;
+  background-color: var(--clr-neutral-700);
+  border: 1px solid var(--clr-neutral-600);
+  font-weight: 700;
+  text-transform: uppercase;
+  color: white;
+  letter-spacing: 1px;
+  margin: 0 0.5rem 2rem 0;
+}
+.title {
+  text-align: center;
+  margin-bottom: 3rem;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+/* Menu */
+.Menu {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(min(280px, 100%), 1fr));
+  gap: 1rem;
+}
+
+.Menu img {
+  height: 100%;
+  width: 100%;
+  aspect-ratio: 16/9;
+  object-fit: cover;
+  border-bottom: 1px solid var(--clr-neutral-600);
+}
+.Menu .menu-ctr {
+  cursor: pointer;
+  display: grid;
+  border: 1px solid var(--clr-neutral-600);
+  border-radius: 1rem;
+  overflow: hidden;
+  background: linear-gradient(
+    180deg,
+    var(--clr-neutral-600) 0%,
+    transparent 100%
+  );
+}
+.Menu .menu-ctr:hover {
+  background: var(--clr-neutral-600);
+}
+.Menu .menu-ctr div:nth-child(1) {
+  position: relative;
+}
+.Menu .menu-ctr div:nth-child(2) {
+  padding: 1rem;
+  display: grid;
+  gap: 0.5rem;
+}
+.Menu .menu-ctr p {
+  font-size: 14px;
+}
+.Menu .menu-ctr .price-tag {
+  color: white;
+  position: absolute;
+  background-color: var(--clr-neutral-700);
+  border-radius: 100vw;
+  border: 1px solid var(--clr-neutral-600);
+  padding: 4px 8px;
+  bottom: 0.5rem;
+  right: 0.5rem;
+}

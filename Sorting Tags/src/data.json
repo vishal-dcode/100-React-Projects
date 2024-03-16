@@ -1,0 +1,67 @@
+{
+  "menu": [
+    {
+      "title": "Bacon Overflow",
+      "category": "breakfast",
+      "price": 8.99,
+      "img": "https://source.unsplash.com/random/?Bacon",
+      "desc": "Carry jianbing normcore freegan. Viral single—origin coffee live—edge, pork belly cloud bread iceland put a bird"
+    },
+    {
+      "title": "Grilled Salmon",
+      "category": "dinner",
+      "price": 18.99,
+      "img": "https://source.unsplash.com/random/?Salmon",
+      "desc": "Grilled salmon fillet served with steamed vegetables and lemon-dill sauce."
+    },
+    {
+      "title": "Avocado Toast",
+      "category": "breakfast",
+      "price": 7.99,
+      "img": "https://source.unsplash.com/random/?Avocado",
+      "desc": "Sliced avocado on whole-grain toast with a sprinkle of sea salt and red pepper flakes."
+    },
+    {
+      "title": "Eggs Benedict",
+      "category": "breakfast",
+      "price": 10.99,
+      "img": "https://source.unsplash.com/random/?Eggs",
+      "desc": "Classic eggs benedict with poached eggs, Canadian bacon, and hollandaise sauce on an English muffin."
+    },
+    {
+      "title": "Pancake Stack",
+      "category": "breakfast",
+      "price": 6.49,
+      "img": "https://source.unsplash.com/random/?Pancake",
+      "desc": "Fluffy pancake stack served with maple syrup, butter, and your choice of toppings."
+    },
+    {
+      "title": "Caesar Salad",
+      "category": "lunch",
+      "price": 9.49,
+      "img": "https://source.unsplash.com/random/?Salad",
+      "desc": "Crisp romaine lettuce, croutons, parmesan cheese, and Caesar dressing."
+    },
+    {
+      "title": "Margherita Pizza",
+      "category": "dinner",
+      "price": 14.99,
+      "img": "https://source.unsplash.com/random/?Pizza",
+      "desc": "Traditional margherita pizza with fresh mozzarella, tomatoes, basil, and olive oil."
+    },
+    {
+      "title": "Mushroom Risotto",
+      "category": "dinner",
+      "price": 15.49,
+      "img": "https://source.unsplash.com/random/?Mushroom",
+      "desc": "Creamy mushroom risotto cooked with Arborio rice, mushrooms, parmesan cheese, and herbs."
+    },
+    {
+      "title": "Classic Burger",
+      "category": "lunch",
+      "price": 12.99,
+      "img": "https://source.unsplash.com/random/?Burger",
+      "desc": "Juicy beef patty with lettuce, tomato, onion, and your choice of cheese, served with fries."
+    }
+  ]
+}

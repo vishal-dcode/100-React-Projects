@@ -1,0 +1,62 @@
+[
+  {
+    "position": "Full Stack Web Developer",
+    "company": "Google",
+    "date": "December 2022 - Present",
+    "duties": [
+      "Developed and maintained front-end and back-end components of various web applications.",
+      "Collaborated with cross-functional teams to design and implement new features.",
+      "Optimized website performance and responsiveness, resulting in improved user experience.",
+      "Implemented security measures to protect user data and prevent vulnerabilities.",
+      "Participated in code reviews and provided constructive feedback to team members."
+    ]
+  },
+  {
+    "position": "Machine Learning Engineer",
+    "company": "Microsoft",
+    "date": "June 2020 - September 2022",
+    "duties": [
+      "Designed and implemented machine learning models for predictive analytics.",
+      "Collected, cleaned, and analyzed large datasets to extract meaningful insights.",
+      "Collaborated with data scientists to develop data preprocessing pipelines.",
+      "Deployed machine learning models to production, contributing to real-time decision-making.",
+      "Contributed to research efforts in exploring new machine learning algorithms."
+    ]
+  },
+  {
+    "position": "Software Development Engineer",
+    "company": "Apple",
+    "date": "March 2017 - November 2019",
+    "duties": [
+      "Led the development of a scalable microservices architecture for a cloud-based application.",
+      "Worked closely with product managers to define and prioritize feature requirements.",
+      "Implemented automated testing and continuous integration processes, reducing bugs.",
+      "Mentored junior developers and conducted internal tech talks on best practices.",
+      "Investigated and resolved critical production issues to ensure high system availability."
+    ]
+  },
+  {
+    "position": "Product Designer",
+    "company": "TechNest",
+    "date": "August 2014 - January 2017",
+    "duties": [
+      "Translated user requirements into intuitive and visually appealing user interface designs.",
+      "Conducted user research and usability testing to iterate on design solutions.",
+      "Collaborated with front-end developers to ensure accurate implementation of designs.",
+      "Redesigned the mobile app interface, resulting in a 30% increase in user engagement.",
+      "Participated in design critiques and contributed to a culture of design excellence."
+    ]
+  },
+  {
+    "position": "Backend Software Engineer",
+    "company": "MegaSoft",
+    "date": "October 2012 - April 2015",
+    "duties": [
+      "Developed server-side logic and APIs for a high-traffic e-commerce platform.",
+      "Optimized database queries and improved system performance to handle increased load.",
+      "Collaborated with front-end developers to design and implement RESTful endpoints.",
+      "Integrated third-party services and payment gateways to enhance platform functionality.",
+      "Participated in on-call rotations to address critical production issues promptly."
+    ]
+  }
+]

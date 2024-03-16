@@ -1,0 +1,32 @@
+[
+  {
+    "name": "Vishal",
+    "age": "21",
+    "img": "https://source.unsplash.com/random/?portrait-men"
+  },
+  {
+    "name": "Sam",
+    "age": "18",
+    "img": "https://source.unsplash.com/random/?portrait-boy"
+  },
+  {
+    "name": "Akansha",
+    "age": "26",
+    "img": "https://source.unsplash.com/random/?portrait-girl"
+  },
+  {
+    "name": "Jitu",
+    "age": "12",
+    "img": "https://source.unsplash.com/random/?portrait-famous"
+  },
+  {
+    "name": "Alia",
+    "age": "16",
+    "img": "https://source.unsplash.com/random/?portrait-women"
+  },
+  {
+    "name": "Ram",
+    "age": "25",
+    "img": "https://source.unsplash.com/random/?portrait"
+  }
+]

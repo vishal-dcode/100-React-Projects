@@ -1,0 +1,124 @@
+@import url("https://fonts.googleapis.com/css2?family=Geologica:wght@100;300;400;500;600;700;800;900&family=Poppins:wght@200;300;400;500;600;700&display=swap");
+
+:root {
+  --ff-display: "Geologica", "Poppins", Helvetica, Arial, sans-serif;
+  --ff-body: "Geologica", "Poppins", Helvetica, Arial, sans-serif;
+
+  --fs-1: clamp(1.802rem, 0.802rem + 4vw, 3.052rem);
+  --fs-2: clamp(1.602rem, 0.9308rem + 2.6848vw, 2.441rem);
+  --fs-3: clamp(1.424rem, 1.0008rem + 1.6928vw, 1.953rem);
+  --fs-4: clamp(1.266rem, 1.0284rem + 0.9504vw, 1.563rem);
+  --fs-5: clamp(1.125rem, 1.025rem + 0.4vw, 1.25rem);
+  --fs-6: clamp(1rem, 1rem + 0vw, 1rem);
+  --fs-regular: clamp(0.875rem, 0.8158rem + 0.2105vw, 1rem);
+  --fs-small: clamp(0.8125rem, 0.7875rem + 0.1vw, 0.875rem);
+  --fs-xsmall: clamp(0.6875rem, 0.6375rem + 0.2vw, 0.8125rem);
+
+  --clr-primary-400: #5f7ff5;
+  --clr-secondary-400: #d9ee5f;
+  --clr-accent-400: #ee9648;
+
+  --clr-neutral-100: #ffffff;
+  --clr-neutral-200: #f8fafa;
+  --clr-neutral-300: #c5c6c8;
+  --clr-neutral-400: #818283;
+  --clr-neutral-500: #4f5052;
+  --clr-neutral-600: #282728;
+  --clr-neutral-700: #0d0e10;
+  --clr-neutral-800: #000000;
+
+  --clr-heading: var(--clr-neutral-100);
+  --clr-text: var(--clr-neutral-300);
+  --clr-bg: var(--clr-neutral-700);
+}
+
+*,
+*::before,
+*::after {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+* {
+  margin: 0;
+  padding: 0;
+  font-family: var(--ff-display);
+}
+html:focus-within {
+  scroll-behavior: smooth;
+}
+body {
+  text-rendering: optimizeSpeed;
+  background-color: var(--clr-bg);
+  color: var(--clr-text);
+
+  height: 100vh;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: var(--fw-medium);
+  color: var(--clr-heading);
+}
+
+/* ~~~~~~~~~~~~~~~~~~ Style CSS ~~~~~~~~~~~~~~~~~~ */
+.App {
+  background-color: var(--clr-neutral-600);
+  padding: 2rem;
+  border-radius: 1rem;
+  border: 1px solid var(--clr-neutral-500);
+  margin: 2rem;
+}
+h1 {
+  margin-block: 0.5rem 2rem;
+  text-align: center;
+  font-weight: 600;
+}
+.ctr {
+  max-width: 550px;
+}
+.icon {
+  cursor: pointer;
+  background-color: var(--clr-neutral-600);
+  border: 1px solid var(--clr-neutral-500);
+  padding: 0.5rem;
+  border-radius: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: min-content;
+}
+.icon:hover {
+  background-color: var(--clr-neutral-500);
+}
+.icon polyline {
+  stroke: white;
+  z-index: 10;
+}
+.icon .icon-previous {
+  transform: rotate(180deg);
+}
+.icon-wrapper {
+  display: flex;
+  gap: 0.5rem;
+  justify-content: end;
+}
+p {
+  text-align: justify;
+}
+.author {
+  display: block;
+  margin-block: 0.8rem 1rem !important;
+  font-size: 14px;
+}
+.icon .disabled {
+  cursor: not-allowed;
+  pointer-events: none;
+}
