@@ -1,5 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap");
-
+@import "https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap";
 * {
   margin: 0;
   padding: 0;
@@ -14,10 +13,8 @@ body {
 .container {
   padding-inline: 1.2rem;
 }
-
-/* ====> Navbar <==== */
 nav .active {
-  color: rgb(255, 65, 40);
+  color: #ff4128;
 }
 .navbar-wrapper {
   background-color: #101010;
@@ -34,18 +31,16 @@ nav .active {
   color: #eee;
 }
 .nav-logo {
-  font-weight: bold;
+  font-weight: 700;
 }
 nav {
   display: flex;
   gap: 1rem;
   padding-block: 1.5rem;
 }
-/* Routes Wrapper */
 .body-wrapper {
   margin-top: 1rem;
 }
-/* 404 Component */
 .error-title {
   height: 85vh;
   display: grid;

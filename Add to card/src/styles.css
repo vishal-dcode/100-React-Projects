@@ -1,9 +1,7 @@
-@import url("https://fonts.googleapis.com/css2?family=Geologica:wght@100;300;400;500;600;700;800;900&family=Poppins:wght@200;300;400;500;600;700&display=swap");
-
+@import "https://fonts.googleapis.com/css2?family=Geologica:wght@100;300;400;500;600;700;800;900&family=Poppins:wght@200;300;400;500;600;700&display=swap";
 :root {
-  --ff-display: "Poppins", "Geologica", Helvetica, Arial, sans-serif;
-  --ff-body: "Poppins", "Geologica", Helvetica, Arial, sans-serif;
-
+  --ff-display: Poppins, Geologica, Helvetica, Arial, sans-serif;
+  --ff-body: Poppins, Geologica, Helvetica, Arial, sans-serif;
   --fs-1: clamp(1.802rem, 0.802rem + 4vw, 3.052rem);
   --fs-2: clamp(1.602rem, 0.9308rem + 2.6848vw, 2.441rem);
   --fs-3: clamp(1.424rem, 1.0008rem + 1.6928vw, 1.953rem);
@@ -13,12 +11,10 @@
   --fs-regular: clamp(0.875rem, 0.8158rem + 0.2105vw, 1rem);
   --fs-small: clamp(0.8125rem, 0.7875rem + 0.1vw, 0.875rem);
   --fs-xsmall: clamp(0.6875rem, 0.6375rem + 0.2vw, 0.8125rem);
-
   --clr-primary-400: #5f7ff5;
   --clr-secondary-400: #d9ee5f;
   --clr-accent-400: #ee9648;
-
-  --clr-neutral-100: #eeeeee;
+  --clr-neutral-100: #eee;
   --clr-neutral-200: #f8fafa;
   --clr-neutral-300: #c5c6c8;
   --clr-neutral-400: #818283;
@@ -26,21 +22,18 @@
   --clr-neutral-600: #282728;
   --clr-neutral-700: #0d0e10;
   --clr-neutral-800: #141414;
-
   --clr-heading: var(--clr-neutral-100);
   --clr-text: var(--clr-neutral-300);
   --clr-bg: var(--clr-neutral-800);
-
   --hue: 223;
   --bg: hsl(var(--hue), 10%, 90%);
   --fg: hsl(var(--hue), 10%, 10%);
   --primary: hsl(var(--hue), 90%, 55%);
   --trans-dur: 0.3s;
 }
-
 *,
-*::before,
-*::after {
+::before,
+::after {
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
   scroll-behavior: smooth;
@@ -64,13 +57,12 @@ h3,
 h4,
 h5,
 h6 {
-  font-weight: bold;
+  font-weight: 700;
   color: var(--clr-heading);
 }
-
 .title {
   text-transform: uppercase;
-  font-weight: bold;
+  font-weight: 700;
 }
 button {
   cursor: pointer;
@@ -81,13 +73,11 @@ button {
   background-color: var(--primary);
   color: var(--clr-neutral-100);
   border: none;
-  font-weight: bold;
+  font-weight: 700;
 }
 .btn:hover {
   opacity: 0.9;
 }
-
-/* Archive */
 nav {
   background-color: var(--clr-neutral-600);
   widows: 100%;
@@ -122,11 +112,10 @@ nav h1 {
   width: 20px;
   display: grid;
   place-content: center;
-  font-weight: bold;
+  font-weight: 700;
   color: var(--clr-neutral-100);
   border-radius: 100vw;
 }
-
 .product-wrapper {
   display: grid;
   justify-content: center;
@@ -167,7 +156,7 @@ nav h1 {
 .product-amount button {
   background: none;
   border: none;
-  color: white;
+  color: #fff;
   font-size: 1.5rem;
   line-height: 0;
 }
@@ -200,14 +189,13 @@ hr {
   line-height: 0;
   border-radius: 100vw;
   border: 0;
-  background-color: rgb(180, 0, 0);
+  background-color: #b40000;
   color: var(--clr-neutral-100);
   margin-top: 1rem;
 }
 .remove-btn:hover {
   opacity: 0.8;
 }
-
 .preloader {
   text-align: center;
   max-width: 20em;
@@ -231,7 +219,7 @@ hr {
 }
 .cart {
   display: block;
-  margin: 0 auto 1.5em auto;
+  margin: 0 auto 1.5em;
   width: 8em;
   height: 8em;
 }
@@ -265,8 +253,6 @@ hr {
   stroke: hsla(var(--hue), 10%, 10%, 0.1);
   transition: stroke var(--trans-dur);
 }
-
-/* Dark theme */
 @media (prefers-color-scheme: dark) {
   :root {
     --bg: hsl(var(--hue), 10%, 10%);
@@ -276,8 +262,6 @@ hr {
     stroke: hsla(var(--hue), 10%, 90%, 0.1);
   }
 }
-
-/* Animations */
 @keyframes msg {
   from {
     opacity: 1;

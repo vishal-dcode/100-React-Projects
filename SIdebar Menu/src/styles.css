@@ -1,24 +1,9 @@
-@import url("https://fonts.googleapis.com/css2?family=Geologica:wght@100;300;400;500;600;700;800;900&family=Poppins:wght@200;300;400;500;600;700&display=swap");
-
+@import "https://fonts.googleapis.com/css2?family=Geologica:wght@100;300;400;500;600;700;800;900&family=Poppins:wght@200;300;400;500;600;700&display=swap";
 :root {
-  --ff-display: "Poppins", "Geologica", Helvetica, Arial, sans-serif;
-  --ff-body: "Poppins", "Geologica", Helvetica, Arial, sans-serif;
-
-  --fs-1: clamp(1.802rem, 0.802rem + 4vw, 3.052rem);
-  --fs-2: clamp(1.602rem, 0.9308rem + 2.6848vw, 2.441rem);
-  --fs-3: clamp(1.424rem, 1.0008rem + 1.6928vw, 1.953rem);
-  --fs-4: clamp(1.266rem, 1.0284rem + 0.9504vw, 1.563rem);
-  --fs-5: clamp(1.125rem, 1.025rem + 0.4vw, 1.25rem);
-  --fs-6: clamp(1rem, 1rem + 0vw, 1rem);
-  --fs-regular: clamp(0.875rem, 0.8158rem + 0.2105vw, 1rem);
-  --fs-small: clamp(0.8125rem, 0.7875rem + 0.1vw, 0.875rem);
-  --fs-xsmall: clamp(0.6875rem, 0.6375rem + 0.2vw, 0.8125rem);
-
-  --clr-primary-400: #5f7ff5;
+  --ff-display: Poppins, Geologica, Helvetica, Arial, sans-serif;
+  --ff-body: Poppins, Geologica, Helvetica, Arial, sans-serif;
   --clr-secondary-400: #d9ee5f;
-  --clr-accent-400: #ee9648;
-
-  --clr-neutral-100: #eeeeee;
+  --clr-neutral-100: #eee;
   --clr-neutral-200: #f8fafa;
   --clr-neutral-300: #c5c6c8;
   --clr-neutral-400: #818283;
@@ -26,15 +11,13 @@
   --clr-neutral-600: #282728;
   --clr-neutral-700: #0d0e10;
   --clr-neutral-800: #141414;
-
   --clr-heading: var(--clr-neutral-100);
   --clr-text: var(--clr-neutral-300);
   --clr-bg: var(--clr-neutral-800);
 }
-
 *,
-*::before,
-*::after {
+::before,
+::after {
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
   scroll-behavior: smooth;
@@ -51,7 +34,6 @@ body {
   text-rendering: optimizeSpeed;
   background-color: var(--clr-bg);
   color: var(--clr-text);
-
   height: 100vh;
   display: flex;
   justify-content: center;
@@ -65,13 +47,12 @@ h3,
 h4,
 h5,
 h6 {
-  font-weight: bold;
+  font-weight: 700;
   color: var(--clr-heading);
 }
-
 .title {
   text-transform: uppercase;
-  font-weight: bold;
+  font-weight: 700;
 }
 button {
   cursor: pointer;
@@ -81,13 +62,11 @@ button {
   border-radius: 8px;
   border: 1px dashed var(--clr-neutral-600);
   background-color: var(--clr-secondary-400);
-  font-weight: bold;
+  font-weight: 700;
 }
 .btn:hover {
   opacity: 0.8;
 }
-/* ~~~~ ARCHIVE ~~~~ */
-
 .hamburger {
   background-color: var(--clr-neutral-600);
   color: var(--clr-neutral-300);
@@ -98,7 +77,6 @@ button {
   display: grid;
   place-content: center;
   font-size: 1.2rem;
-
   position: fixed;
   top: 1rem;
   left: 1rem;
@@ -106,10 +84,8 @@ button {
 .hamburger:hover {
   background-color: var(--clr-neutral-500);
 }
-
 .modal-overlay {
   display: none;
-
   position: absolute;
   background-color: var(--clr-neutral-600);
   border-radius: 1.5rem;
@@ -124,10 +100,9 @@ button {
   box-shadow: 0 10px 15px var(--clr-neutral-700);
   transition: all 0.4s ease;
 }
-
 .close-btn:hover {
-  background-color: #ff4444;
-  color: white;
+  background-color: #f44;
+  color: #fff;
 }
 .close-btn {
   position: absolute;
@@ -142,7 +117,6 @@ button {
   outline: transparent;
   font-size: 1.2rem;
 }
-
 .sidebar {
   max-width: 350px;
   min-width: 250px;
@@ -153,7 +127,6 @@ button {
   left: -100%;
   bottom: 0;
   overflow: hidden;
-
   display: none;
   flex-direction: column;
   animation: all 0.5s ease;
@@ -196,7 +169,6 @@ button {
   background-color: var(--clr-neutral-800);
   color: var(--clr-neutral-200);
 }
-
 .menu-list {
   display: grid;
   gap: 0.5rem;
@@ -228,7 +200,6 @@ button {
   padding: 1rem;
   border-left: 1px solid var(--clr-neutral-700);
 }
-
 .modal-active {
   display: grid;
 }

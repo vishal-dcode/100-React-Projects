@@ -1,9 +1,7 @@
-@import url("https://fonts.googleapis.com/css2?family=Geologica:wght@100;300;400;500;600;700;800;900&family=Poppins:wght@200;300;400;500;600;700&display=swap");
-
+@import "https://fonts.googleapis.com/css2?family=Geologica:wght@100;300;400;500;600;700;800;900&family=Poppins:wght@200;300;400;500;600;700&display=swap";
 :root {
-  --ff-display: "Geologica", "Poppins", Helvetica, Arial, sans-serif;
-  --ff-body: "Geologica", "Poppins", Helvetica, Arial, sans-serif;
-
+  --ff-display: Geologica, Poppins, Helvetica, Arial, sans-serif;
+  --ff-body: Geologica, Poppins, Helvetica, Arial, sans-serif;
   --fs-1: clamp(1.802rem, 0.802rem + 4vw, 3.052rem);
   --fs-2: clamp(1.602rem, 0.9308rem + 2.6848vw, 2.441rem);
   --fs-3: clamp(1.424rem, 1.0008rem + 1.6928vw, 1.953rem);
@@ -13,28 +11,24 @@
   --fs-regular: clamp(0.875rem, 0.8158rem + 0.2105vw, 1rem);
   --fs-small: clamp(0.8125rem, 0.7875rem + 0.1vw, 0.875rem);
   --fs-xsmall: clamp(0.6875rem, 0.6375rem + 0.2vw, 0.8125rem);
-
   --clr-primary-400: #5f7ff5;
   --clr-secondary-400: #d9ee5f;
   --clr-accent-400: #ee9648;
-
-  --clr-neutral-100: #ffffff;
+  --clr-neutral-100: #fff;
   --clr-neutral-200: #f8fafa;
   --clr-neutral-300: #c5c6c8;
   --clr-neutral-400: #818283;
   --clr-neutral-500: #4f5052;
   --clr-neutral-600: #282728;
   --clr-neutral-700: #0d0e10;
-  --clr-neutral-800: #000000;
-
+  --clr-neutral-800: #000;
   --clr-heading: var(--clr-neutral-100);
   --clr-text: var(--clr-neutral-300);
   --clr-bg: var(--clr-neutral-700);
 }
-
 *,
-*::before,
-*::after {
+::before,
+::after {
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
   scroll-behavior: smooth;
@@ -51,7 +45,6 @@ body {
   text-rendering: optimizeSpeed;
   background-color: var(--clr-bg);
   color: var(--clr-text);
-
   height: 100vh;
   overflow: hidden;
   display: flex;
@@ -67,8 +60,6 @@ h6 {
   font-weight: var(--fw-medium);
   color: var(--clr-heading);
 }
-
-/* ~~~~~~~~~~~~~~~~~~ Style CSS ~~~~~~~~~~~~~~~~~~ */
 .container {
   background-color: var(--clr-neutral-600);
   padding: 1rem;
@@ -88,7 +79,6 @@ h6 {
   outline: transparent;
   background-color: var(--clr-accent-400);
 }
-
 .list-wrapper {
   padding-block: 0.8rem;
   display: flex;

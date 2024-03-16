@@ -1,6 +1,5 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Lexend+Giga:wght@500&display=swap");
-/* reset */
+@import "https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap";
+@import "https://fonts.googleapis.com/css2?family=Lexend+Giga:wght@500&display=swap";
 * {
   margin: 0;
   padding: 0;
@@ -13,7 +12,6 @@ body {
   color: #fff;
   padding: 1.2rem;
 }
-/* Video */
 .video-wrapper {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(min(250px, 100%), auto));
@@ -108,7 +106,6 @@ body {
 .edit-btn:hover {
   background-color: rgba(0, 0, 0, 0.8);
 }
-/* form and button */
 .form-ctr {
   display: flex;
   flex-wrap: wrap;
@@ -117,7 +114,7 @@ body {
 }
 .btn {
   cursor: pointer;
-  font-weight: bold;
+  font-weight: 700;
   padding: 0.5rem 1rem;
   border: 0;
   outline: 0;
@@ -165,24 +162,18 @@ input[placeholder="Channel Name"] {
   transform: translateY(-2px) scale(1.02);
   box-shadow: 0 5px 10px #000;
 }
-
-/* LIGHT MODE */
 body.lightMode {
-  background-color: rgb(224, 224, 224);
+  background-color: #e0e0e0;
 }
 body.lightMode .btn-theme {
   background-color: #303030;
 }
 body.lightMode .video-ctr {
-  background-color: #666666;
+  background-color: #666;
   border-color: #000;
 }
 body.lightMode .video-ctr:hover {
-  background: linear-gradient(
-    180deg,
-    rgba(255, 255, 255, 0.1) 0%,
-    #666666 100%
-  );
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.1) 0%, #666 100%);
 }
 body.lightMode .video-thumbnail {
   border-color: #000;
