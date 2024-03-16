@@ -14,41 +14,6 @@ To run any of the projects, follow these simple steps:
 4. Run the project using `npm start` or `yarn start`.
 5. View the project in your web browser at the specified localhost address.
 
-## How to Contribute
-
-Contributions to this repository are welcome! If you have a project in mind or would like to contribute to an existing project, follow these steps:
-
-1. Fork the repository.
-2. Create a new branch (`git checkout -b feature/your-feature`).
-3. Commit your changes (`git commit -m 'Add some feature'`).
-4. Push to the branch (`git push origin feature/your-feature`).
-5. Open a pull request.
-
-After contributing, add your profile photo and URL to the Contributors section below.
-
-## Contributors
-
-<table>
-    <tbody>
-        <tr>
-           <td align="center" >
-                <a href="https://github.com/vishal-dcode" target=”_blank” rel="nofollow">
-                    <img src="https://avatars.githubusercontent.com/u/100755052?v=4" alt="Vishal Vishwakarma" style="height: 100px; width: 100px; object-fit: cover;">
-                    <br>
-                    <sub><b>Vishal Vishwakarma</b></sub>
-                </a> 
-            </td>
-            <td align="center">
-                <a href="#" target=”_blank” rel="nofollow">
-                    <img src="https://source.unsplash.com/random/?coding" alt="Your Name" style="height: 100px; width: 100px; object-fit: cover;">
-                    <br>
-                    <sub><b>Your Name</b></sub>
-                </a> 
-            </td>
-        </tr>
-    </tbody>
-</table>
-
 ## Project List
 
 #### Beginner:
@@ -80,3 +45,41 @@ After contributing, add your profile photo and URL to the Contributors section b
 | E-commerce with Real-Backend | A sophisticated e-commerce application with a real backend for managing products and orders. |
 
 Feel free to explore and contribute to these projects to enhance your React skills!
+
+## How to Contribute
+
+Contributions to this repository are welcome! If you have a project in mind or would like to contribute to an existing project, follow these steps:
+
+1. Fork the repository.
+2. Create a new branch (`git checkout -b feature/your-feature`).
+3. Commit your changes (`git commit -m 'Add some feature'`).
+4. Push to the branch (`git push origin feature/your-feature`).
+5. Open a pull request.
+
+If you find this project useful, please consider giving it a 🌟 star.
+
+## Contributors 🤝
+
+After contributing, add your profile photo and URL to the Contributors section below.
+
+<table>
+    <tbody>
+        <tr>
+           <td align="center" >
+                <a href="https://github.com/vishal-dcode" target=”_blank” rel="nofollow">
+                    <img src="https://avatars.githubusercontent.com/u/100755052?v=4" alt="Vishal Vishwakarma" style="height: 100px; width: 100px; object-fit: cover;">
+                    <br>
+                    <sub><b>Vishal Vishwakarma</b></sub>
+                </a> 
+            </td>
+            <td align="center">
+                <a href="#" target=”_blank” rel="nofollow">
+                    <img src="https://source.unsplash.com/random/?coding" alt="Your Name" style="height: 100px; width: 100px; object-fit: cover;">
+                    <br>
+                    <sub><b>Your Name</b></sub>
+                </a> 
+            </td>
+        </tr>
+    </tbody>
+</table>
+
