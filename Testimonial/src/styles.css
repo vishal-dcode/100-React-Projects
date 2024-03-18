@@ -3,13 +3,10 @@
 :root {
   --ff-display: "Geologica", "Poppins";
   --clr-neutral-100: #ffffff;
-  --clr-neutral-200: #f8fafa;
   --clr-neutral-300: #c5c6c8;
-  --clr-neutral-400: #818283;
   --clr-neutral-500: #4f5052;
   --clr-neutral-600: #282728;
   --clr-neutral-700: #0d0e10;
-  --clr-neutral-800: #000000;
   --clr-heading: var(--clr-neutral-100);
   --clr-text: var(--clr-neutral-300);
   --clr-bg: var(--clr-neutral-700);
@@ -18,7 +15,6 @@
 *,
 *::before,
 *::after {
-  -webkit-box-sizing: border-box;
   box-sizing: border-box;
   scroll-behavior: smooth;
 }
@@ -49,8 +45,7 @@ h5,
 h6 {
   color: var(--clr-heading);
 }
-
-/* ~~~~~~~~~~~~~~~~~~ Style CSS ~~~~~~~~~~~~~~~~~~ */
+/*  Style CSS  */
 .App {
   background-color: var(--clr-neutral-600);
   padding: 2rem;

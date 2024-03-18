@@ -4,9 +4,7 @@
   --fs-2: clamp(1.602rem, 0.9308rem + 2.6848vw, 2.441rem);
   --fs-small: clamp(0.8125rem, 0.7875rem + 0.1vw, 0.875rem);
   --clr-neutral-100: #eee;
-  --clr-neutral-200: #f8fafa;
   --clr-neutral-300: #c5c6c8;
-  --clr-neutral-400: #818283;
   --clr-neutral-500: #4f5052;
   --clr-neutral-600: #282728;
   --clr-neutral-700: #0d0e10;
@@ -18,7 +16,6 @@
 *,
 ::before,
 ::after {
-  -webkit-box-sizing: border-box;
   box-sizing: border-box;
   scroll-behavior: smooth;
 }
@@ -27,11 +24,8 @@
   padding: 0;
   font-family: var(--ff-display);
 }
-html:focus-within {
-  scroll-behavior: smooth;
-}
+
 body {
-  text-rendering: optimizeSpeed;
   background-color: var(--clr-bg);
   color: var(--clr-text);
   overflow: hidden;

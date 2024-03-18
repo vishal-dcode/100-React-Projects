@@ -2,15 +2,6 @@
 :root {
   --ff-display: Poppins, Geologica, Helvetica, Arial, sans-serif;
   --ff-body: Poppins, Geologica, Helvetica, Arial, sans-serif;
-  --fs-1: clamp(1.802rem, 0.802rem + 4vw, 3.052rem);
-  --fs-2: clamp(1.602rem, 0.9308rem + 2.6848vw, 2.441rem);
-  --fs-3: clamp(1.424rem, 1.0008rem + 1.6928vw, 1.953rem);
-  --fs-4: clamp(1.266rem, 1.0284rem + 0.9504vw, 1.563rem);
-  --fs-5: clamp(1.125rem, 1.025rem + 0.4vw, 1.25rem);
-  --fs-6: clamp(1rem, 1rem + 0vw, 1rem);
-  --fs-regular: clamp(0.875rem, 0.8158rem + 0.2105vw, 1rem);
-  --fs-small: clamp(0.8125rem, 0.7875rem + 0.1vw, 0.875rem);
-  --fs-xsmall: clamp(0.6875rem, 0.6375rem + 0.2vw, 0.8125rem);
   --clr-primary-400: #5f7ff5;
   --clr-neutral-100: #eee;
   --clr-neutral-300: #c5c6c8;
@@ -21,23 +12,13 @@
   --clr-text: var(--clr-neutral-300);
   --clr-bg: var(--clr-neutral-800);
 }
-*,
-::before,
-::after {
-  -webkit-box-sizing: border-box;
-  box-sizing: border-box;
-  scroll-behavior: smooth;
-}
 * {
   margin: 0;
   padding: 0;
-  font-family: var(--ff-display);
-}
-html:focus-within {
-  scroll-behavior: smooth;
+  box-sizing: border-box;
 }
 body {
-  text-rendering: optimizeSpeed;
+  font-family: var(--ff-display);
   background-color: var(--clr-bg);
   color: var(--clr-text);
   overflow-x: hidden;

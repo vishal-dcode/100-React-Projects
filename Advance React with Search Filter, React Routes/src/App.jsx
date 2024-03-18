@@ -9,7 +9,6 @@ import About from "./pages/About";
 import CocktailDetail from "./pages/CocktailDetail";
 import Error from "./pages/Error";
 
-import "./styles.css";
 import "./styleSheet.css";
 
 export default function App() {
