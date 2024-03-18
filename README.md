@@ -10,9 +10,9 @@ To run any of the projects, follow these simple steps:
 
 1. Clone the repository to your local machine.
 2. Navigate to the project directory.
-3. Install dependencies for the frontend using npm install or yarn install.
-4. Some projects may require a backend server running at localhost:8080. If the project includes a backend, navigate to the backend directory (usually named server or backend) and install backend dependencies using npm install or yarn install. Then, start the backend server using npm start or yarn start.
-5. Once the backend server is running, return to the project directory and start the frontend using npm start or yarn start.
+3. Install dependencies for the frontend using `npm install` or `yarn install`.
+4. Some projects may require a backend server running at `localhost:8080`. If the project includes a backend, navigate to the backend directory (usually named `server` or `backend`) and install backend dependencies using `npm install` or `yarn install`. Then, start the backend server using `npm start` or `yarn start`.
+5. Once the backend server is running, return to the project directory and start the frontend using `npm start` or `yarn start`.
 6. View the project in your web browser at the specified localhost address.
 
 Be sure to follow any additional instructions provided in the project's README file for specific setup requirements for both the frontend and backend. Enjoy exploring and experimenting with the projects!
